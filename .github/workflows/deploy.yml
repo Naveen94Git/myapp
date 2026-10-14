@@ -18,7 +18,7 @@ env:
   AWS_REGION: ${{ vars.AWS_REGION }}
   AWS_ACCOUNT_ID: ${{ vars.AWS_ACCOUNT_ID }}
   ECR_REPOSITORY: ${{ vars.ECR_REPOSITORY }}
-  GITOPS_REPO: Naveen94Git/myapp-gitops
+  GITOPS_REPO: YOUR_ORG/myapp-gitops
 
 jobs:
   build-and-update:
